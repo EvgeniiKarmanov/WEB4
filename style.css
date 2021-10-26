@@ -1,0 +1,110 @@
+html{
+    background: gray;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header{
+    background-color: #000;
+    height: 110px;
+    box-shadow: 0 0 50px;
+}
+.navbar{
+    height: 110px;
+}
+.header__logo{
+    width: 100px;
+    height: 100px;
+
+}.header__text{
+     color: #fff;
+     font-style: initial;
+     font-size: 125%;
+     font-size: 3ch;
+ }
+.header__text span{
+    font-style: initial;
+    font-size: 200%;
+}
+
+a{
+    font-weight: 700;
+    color: #000;
+}
+.menu{
+    padding-left: 0;
+}
+.menu li{
+    background-color: rgb(152, 90, 190);
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    font-size: 3ch;
+    border: 0.5px solid ;
+}
+.menu a{
+    display: block;
+
+}
+.menu a span{
+
+    font-size: 200%
+}
+.menu a:hover{
+    color: #fff;
+    background-color: #000;
+    transition: 0.3s linear;
+}
+.container{
+
+}
+
+.body{
+    background-color: rgb(187, 175, 174);
+}
+.body a:hover{
+    background-color: rgb(103, 96, 93);
+    transition: 0.3s linear;
+
+}
+.form{
+
+    background-color: rgb(183, 189, 215);
+    order: 2;
+}
+.tabl{
+    background-color: rgb(11, 37, 208);
+    order: 3;
+}
+table,th,td{
+    border: 0.5px solid ;
+    border-color: #000;
+    text-align: center;
+
+}
+tbody tr:nth-child(odd){
+    background-color:#fff;
+}
+tbody tr:nth-child(even){
+    background-color: rgba(175, 90, 61, 0.7);
+}
+footer{
+
+    width: 100%;
+    background-color: #000;
+    height: 110px;
+    box-shadow: 0 0 50px;
+}
+.footer__container{
+
+}
+.footer__text{
+
+    color: #fff;
+    letter-spacing: 5px;
+}
